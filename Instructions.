@@ -14,7 +14,7 @@ This is a test of how far you can go on your own. I am not going to answer quest
 
 3. Invent nothing. Every quote, statistic, audience claim, complaint, competitor fact, trend claim, monetization claim, RPM figure, and market claim in the deliverables must trace back to a real URL you actually fetched. Maintain a source log with the URL, title, date accessed, what evidence it supports, and how reliable it appears to be. If you infer something from evidence, clearly label it as inference. If something cannot be verified, say so. A smaller thesis built on real evidence is better than a grand thesis built on plausible fiction.
 
-4. Work only inside https://github.com/backpackerjohn/Tube-3.git. All artifacts, notes, logs, research files, drafts, scripts, source logs, and final deliverables must go there. Do not create, modify, or delete files outside that folder.
+4. Work only inside https://github.com/backpackerjohn/Tubeyou.git. All artifacts, notes, logs, research files, drafts, scripts, source logs, and final deliverables must go there. Do not create, modify, or delete files outside that folder.
 
 5. Never ask me anything. Assume I am not watching. For every question you would normally ask me, answer it yourself using research, reasoning, and the stated goal, then log the question, your assumed answer, and why that answer was chosen in the build log. Do not stop because of ambiguity. If a tool, source, or approach fails, use another route. If a phase cannot be completed perfectly, ship the strongest evidence-backed 80% version, document what was cut or uncertain, and keep moving toward the definition of done.
 
