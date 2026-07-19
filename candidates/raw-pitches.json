@@ -1,0 +1,874 @@
+[
+ {
+  "genre": "history",
+  "ideas": [
+   {
+    "name": "The Ledger Breaks (economic-collapse forensics)",
+    "oneLiner": "Forensic financial autopsies of empires, nations, and companies that ran out of money \u2014 history told through the balance sheet instead of the battlefield.",
+    "genres": [
+     "history"
+    ],
+    "format": "Long-form narrated documentary, 25-40 min, chaptered (The Boom / The Hidden Liability / The Run / The Reckoning), 1-2/week",
+    "titleTemplate": "How {Entity} Went Broke: {shocking mechanism or consequence clause} \u2014 e.g. 'How {Empire/Nation/Company} Went Broke: {It Defaulted N Times / They Executed the Banker / The Money Died in {N} Days}'. Variables: 60+ documented sovereign defaults (Reinhart-Rogoff catalog), 20+ hyperinflations, 15+ company/bank collapses (South Sea, Mississippi, Medici, Barings, East India Co.) = 95+ enumerable titles.",
+    "hookEngine": "A-curiosity-stakes",
+    "sampleTitles": [
+     "How Spain Went Broke 4 Times and Kept the World's Gold",
+     "France Executed Its Own Banker \u2014 Then Went Bankrupt Anyway",
+     "The Empire That Died Owing Money to Its Own Army",
+     "How the Ottoman Empire Went Broke Buying Battleships It Never Got",
+     "The Company That Owned India \u2014 and Still Went Bankrupt",
+     "Money Died in 15 Days: The Worst Hyperinflation in History (Not Weimar)",
+     "The Loan That Killed the Knights Templar",
+     "How Rome Debased Its Way to Collapse \u2014 Coin by Coin",
+     "The Bank Run That Ended a 300-Year Dynasty",
+     "Argentina Has Defaulted 9 Times. Here's the One That Broke It."
+    ],
+    "ownableReframe": "Retell famous historical collapses as forensic financial autopsies in which the balance sheet \u2014 not the battle \u2014 is the murder weapon, with the actual numbers reconstructed on screen.",
+    "productionModel": "Solo, ~10-14 hrs/video: original script from academic sources (Reinhart-Rogoff, EH.net, central-bank histories); visuals = public-domain paintings/engravings and coin/banknote photos (Wikimedia Commons, Met/Rijksmuseum open access, Numista PD images), self-built animated charts of debt/inflation data (own charts = original assets, zero licensing risk), simple animated maps (QGIS/After Effects); human-directed premium TTS or own VO with named narrator persona; every claim cited on-screen (C8). No third-party footage at all, so reused-content exposure is near zero; AI used only for drafting/research assist, disclosed if any photoreal synthetic imagery is used.",
+    "whyNow": "rpm-history.md (Tier B, snippet-level) explicitly says history blended with economics/finance lands at the TOP of the $4-9 RPM range because it pulls finance-adjacent advertisers \u2014 this is the highest-RPM wedge available inside the genre, directly serving the $2,000/mo goal at lower view counts. Demand signal (Tier B): Economics Explained grew to millions of subs on macro-collapse explainers, and a dedicated 'Economy Historian' channel already occupies an adjacent lane \u2014 evidence of appetite, and its existence is a competition item for the downstream audit, not proof of saturation.",
+    "searchProbes": [
+     "how did the ottoman empire go bankrupt",
+     "worst hyperinflation in history documentary",
+     "economic collapse of rome explained"
+    ],
+    "webEvidence": [
+     {
+      "url": "https://www.youtube.com/channel/UCY9S57pDCSPNvc8W_j4cQRQ",
+      "title": "ECONOMY HISTORIAN - YouTube",
+      "supports": "Tier B: a channel dedicated to economics-of-history exists and is indexed prominently \u2014 demand for the exact framing; competitor to audit downstream"
+     },
+     {
+      "url": "https://grokipedia.com/page/economics-explained",
+      "title": "Economics Explained \u2014 Grokipedia",
+      "supports": "Tier B: macro/collapse explainer channel grew to millions of subs, incl. hyperinflation topics \u2014 proves viewing demand for finance-history hybrids"
+     },
+     {
+      "url": "https://www.youtube.com/watch?v=NJd6RKsY5H4",
+      "title": "End of the Road: How Money Became Worthless | ENDEVR Documentary",
+      "supports": "Tier B: long-form money-collapse documentaries surface as popular results in this space"
+     }
+    ],
+    "risks": [
+     "Economics Explained / Economy Historian adjacency \u2014 must verify downstream that sub-500k channels rank for collapse keywords (kill criterion 1)",
+     "Chart-heavy format risks lower retention than story-first rivals; scripting must keep narrative (people, stakes) ahead of data",
+     "RPM evidence base is confidence-LOW snippet triangulation (rpm-history.md caveat) \u2014 revenue model needs re-verification",
+     "Same title skeleton at scale must carry per-video structural variation to avoid the 'templated at scale' inauthentic-content pattern (ypp-policy.md)"
+    ]
+   },
+   {
+    "name": "Margin of Failure (how-it-was-built engineering thrillers)",
+    "oneLiner": "Pre-modern megastructures retold as engineering thrillers: every video is the story of the collapse that should have happened \u2014 and the trick that prevented it (or didn't).",
+    "genres": [
+     "history"
+    ],
+    "format": "Long-form narrated documentary, 20-35 min, chaptered by failure mode (The Problem / What Everyone Else Did Wrong / The Trick / The Test), 1-2/week",
+    "titleTemplate": "'{Structure} Should Have Collapsed \u2014 {withheld-explanation clause}' plus the sibling skeleton 'How {Builders} Built {Structure} Without {modern technology}'. Variables: 100+ candidate structures (domes, cathedrals, aqueducts, bridges, lighthouses, dams, tunnels, walls) x failure-mode angles; documented real collapses (Beauvais, Fidenae, Tay Bridge) supply the stakes proof.",
+    "hookEngine": "A-curiosity-stakes",
+    "sampleTitles": [
+     "The Pantheon Should Have Collapsed 1,900 Years Ago \u2014 Here's the Trick Holding It Up",
+     "How Brunelleschi Built the Impossible Dome Without Scaffolding",
+     "The Cathedral That DID Collapse \u2014 and Rewrote Medieval Engineering",
+     "Rome's Aqueducts Should Have Failed Every Winter. They Didn't.",
+     "The Lighthouse They Built 3 Times Before the Sea Stopped Winning",
+     "Hagia Sophia Survived 20 Major Earthquakes. Its Architects Died Thinking It Wouldn't.",
+     "The Bridge Victorian Engineers Said Couldn't Stand \u2014 Still Standing",
+     "How Medieval Masons Built 40-Meter Stone Ceilings With No Math for It",
+     "The Dam That Held Back a River With Roman Concrete \u2014 and No Rebar",
+     "The Great Wall's Dirty Secret: Most of It Fell Down"
+    ],
+    "ownableReframe": "Turn commodity architecture history into engineering thrillers where the protagonist is the failure mode the builders had to outwit \u2014 an autopsy of a disaster that usually didn't happen, mechanism explained on screen.",
+    "productionModel": "Solo, ~12-15 hrs/video: original script from engineering-history literature; visuals = public-domain survey drawings and blueprints (HABS/HAER at Library of Congress \u2014 US gov, public domain), period engravings (Internet Archive, Wikimedia Commons), self-made 2D cutaway/force-diagram animations (Blender/After Effects \u2014 the mechanism explainer IS the transformation layer), licensed stock establishing shots (Storyblocks-class subscription, licensing cost noted), optional AI reconstructions of lost structures with 'Altered content' disclosure per ypp-policy.md. Diagram animation is the cadence bottleneck: a reusable rig of cutaway templates keeps it to 1-2/week.",
+    "whyNow": "Evergreen curriculum-adjacent fascination (taste-signals T5) with a stakes reframe no reference channel owns \u2014 differentiates from Ancient Indy's 'forbidden places' engine (Guardrail 6: mechanism-and-mortality, not prohibition). Tier B demand: multiple 'Ancient Engineering' series are licensed across Tubi/Prime/CuriosityStream \u2014 broadcasters keep buying this topic \u2014 and 'How Did Ancient Humans Build Everything?' style videos surface as popular YouTube results. Mid-range history RPM per rpm-history.md; engineering skews male 25-54, the premium demo cited there.",
+    "searchProbes": [
+     "how was the pantheon dome built without collapsing",
+     "ancient engineering documentary",
+     "why hasn't hagia sophia collapsed earthquake"
+    ],
+    "webEvidence": [
+     {
+      "url": "https://tubitv.com/series/300002321/ancient-engineering",
+      "title": "Watch Ancient Engineering Streaming Online | Tubi Free TV",
+      "supports": "Tier B: commissioned multi-season series on this exact topic distributed across Tubi/Prime/CuriosityStream \u2014 sustained commercial demand for ancient-engineering content"
+     },
+     {
+      "url": "https://www.youtube.com/watch?v=K36snAvIhwc",
+      "title": "How Did Ancient Humans Build Everything? - YouTube",
+      "supports": "Tier B: 'no cranes, no computers' framing surfaces as a popular YouTube result \u2014 the question has organic search demand"
+     },
+     {
+      "url": "https://www.youtube.com/watch?v=9cdUxZuarL0",
+      "title": "Engineering an Empire | Full Episode | History - YouTube",
+      "supports": "Tier B: History Channel puts full engineering-history episodes on YouTube \u2014 proven watch-time genre"
+     }
+    ],
+    "risks": [
+     "Highest per-video production cost of the four (custom diagrams); cadence slips to 1/week are likely in month 1-2",
+     "'Ancient mysteries' adjacency \u2014 thumbnails/titles must stay mechanism-first or it drifts into the saturated clone space the brief warns about",
+     "Physics claims need engineering-literature citations; errors get called out hard by this audience (also the credibility moat)",
+     "Streaming incumbents (History, CuriosityStream) upload full episodes free \u2014 must verify small channels rank on these keywords downstream"
+    ]
+   },
+   {
+    "name": "True Campaign (real history of every faction in strategy games) \u2014 history x gaming intersection",
+    "oneLiner": "The missing history manual for strategy gamers: one chaptered mega-video per game covering the real history of every faction, civ, or leader \u2014 timed to launches and DLC drops.",
+    "genres": [
+     "history",
+     "gaming"
+    ],
+    "format": "Long-form chaptered narrated video, 40-90 min (one chapter per faction), 1/week mega-video plus 1/week single-faction deep dive cut from the same research",
+    "titleTemplate": "'The REAL History of Every {Faction/Civ/Leader/Nation} in {Game}' (+ optional accuracy verdict suffix '\u2014 What It Gets Right and Wrong'). Variables: AoE2's 45 civs alone = 45 chapter topics; Civ 6/7 leaders, CK3 dynasties, EU4/EU5 nations, Total War historical titles, HOI4, AC series, Battlefield/HLL maps, KCD2, Ghost of Tsushima/Yotei = 60+ video-level titles and hundreds of chapters; every DLC mints new ones (T5 spike-riding).",
+    "hookEngine": "B-exhaustive-promise",
+    "sampleTitles": [
+     "The REAL History of Every Civilization in Age of Empires 2 (All 45)",
+     "The Real History of Every Leader in Civilization VII",
+     "Every Crusader Kings 3 Starting Ruler in 1066 \u2014 Who They Actually Were",
+     "The Real History Behind Every Total War: Three Kingdoms Warlord",
+     "Every Nation in Europa Universalis V, Explained by an Actual Timeline",
+     "The Real History of Every Assassin's Creed Setting (2007-2026)",
+     "Every Battlefield 1 Map \u2014 the Real Battle, Explained",
+     "The Real History of Every Age of Mythology Civilization's Actual Religion",
+     "Every Hearts of Iron 4 Focus Tree vs. What Actually Happened",
+     "The Real History of Every Faction in Total War: Pharaoh"
+    ],
+    "ownableReframe": "Convert commodity encyclopedia history into the strategy gamer's missing manual \u2014 each faction's real history explained through why the game designed its units, bonuses, and borders the way it did, which no straight history channel and no pure gaming channel does.",
+    "productionModel": "Solo, ~12-16 hrs/mega-video amortized by cutting weekly single-faction videos from the same research: own screen-captured gameplay (self-recorded, subordinate to original historical analysis = reused-content safe harbor per ypp-policy.md; publisher video policies for AoE/Paradox/Ubisoft/CA generally permit monetized commentary content \u2014 verify each before launch), public-domain maps and period art (Wikimedia Commons), self-made timeline/map motion graphics, own VO or human-directed premium TTS. Chapter structure = native YouTube chapters = binge/background watch-time (C5).",
+    "whyNow": "Satisfies the intersection requirement with the strongest spike-riding calendar of the four (T5: Civ 7 DLC cycle, EU5 post-launch window, annual AC and Total War releases each mint demand spikes on a fixed schedule, B O Z U S E-style). Tier B: Ubisoft runs an official 'Real History' editorial series \u2014 the publisher itself validates audience appetite for game-vs-history content; WatchMojo lists on AC historical events show the topic sustains list formats. Engine B matches exact search phrasing ('every civ in aoe2 history'), the Recommended Playing pattern, while the accuracy-verdict layer adds the personality that guide channels lacked.",
+    "searchProbes": [
+     "real history behind age of empires 2 civilizations",
+     "civilization 7 leaders real history",
+     "total war three kingdoms real history"
+    ],
+    "webEvidence": [
+     {
+      "url": "https://news.ubisoft.com/en-us/article/6d4zQXyH0VF6z75Ab7jfss/discover-the-real-history-behind-every-assassins-creed",
+      "title": "Discover The Real History Behind Every Assassin's Creed (Ubisoft)",
+      "supports": "Tier B: publisher runs an official editorial series on exactly this angle \u2014 first-party validation of audience demand for game-vs-real-history content"
+     },
+     {
+      "url": "https://www.watchmojo.com/articles/real-life-historical-events-in-assassins-creed-games",
+      "title": "20 Real-Life Historical Events In Assassin's Creed Games | WatchMojo",
+      "supports": "Tier B: mass-audience outlet sustains list content on the game/history intersection"
+     }
+    ],
+    "risks": [
+     "W5 warning applies: exhaustive-guide formats convert search traffic to subscribers poorly (Recommended Playing retired at 0.68x) \u2014 mitigation is the opinionated accuracy-verdict layer, but unproven",
+     "Gaming-adjacent RPM may drag below the pure-history range; audience mix could dilute the premium history demo (dimension 3 risk)",
+     "Publisher content policies vary (Nintendo-style restrictions elsewhere); each game's monetized-video policy must be checked before it enters the calendar",
+     "Mega-videos front-load effort; a flop wastes a full week (mitigated by cutting singles from the same research)"
+    ]
+   },
+   {
+    "name": "Paper Trail (citation-anchored declassified-document mysteries)",
+    "oneLiner": "Cold War and intelligence-history mysteries where the actual declassified file is the protagonist \u2014 read on screen, page by page, so the sensational claim and its citation are the same shot.",
+    "genres": [
+     "history"
+    ],
+    "format": "Long-form narrated documentary, 20-30 min, structured as a document read (The File / What It Admits / What's Still Redacted / What Happened Next), 1-2/week",
+    "titleTemplate": "'{Agency} Kept This File Secret for {N} Years \u2014 {withheld payoff clause}' with sibling skeleton 'Declassified: The {document type} That {revelation clause}'. Variables: CIA CREST (millions of pages), FBI Vault, NSA archive, NARA, UK National Archives releases; 100+ named operations (MKUltra, Northwoods, Paperclip, Venona, Ajax, Gladio, Glomar, Able Archer...) x per-document angles.",
+    "hookEngine": "A-curiosity-stakes",
+    "sampleTitles": [
+     "The CIA Kept This File Secret for 42 Years \u2014 It Admits the Coup",
+     "Declassified: The Memo Where the Pentagon Planned to Fake an Attack on America",
+     "The FBI Watched Him for 20 Years. The File Explains Why.",
+     "This Page Was Redacted for 50 Years. Here's What Was Under the Ink.",
+     "The CIA's Own Report Called the Operation a Failure \u2014 Then Buried It",
+     "Declassified: The $20 Million Cat the CIA Actually Built",
+     "The Telegram That Proved the Spies Were Real All Along",
+     "NATO's Secret Armies Were Real \u2014 the Documents That Admit It",
+     "The War Game That Nearly Started a Real One: The Able Archer File",
+     "Declassified: The Interrogation Manual the CIA Tried to Destroy"
+    ],
+    "ownableReframe": "Make the primary-source document itself the on-screen protagonist \u2014 every sensational claim is shown in the government's own words at the moment it's made, fusing Ancient Indy's forbidden-knowledge hook with a built-in citation floor no mystery channel matches.",
+    "productionModel": "Solo, ~10-12 hrs/video: US government documents are public domain (CIA CREST/FOIA reading room, FBI Vault, NARA) \u2014 free, unlimited, legally clean core assets; visual language = slow scan pans, highlight/redaction-reveal motion graphics (After Effects templates, reusable rig), NARA/DOD public-domain photos and film, period maps; own VO or human-directed premium TTS with named narrator persona. Original analytical script synthesizing the file with published scholarship keeps it firmly outside slideshow/inauthentic-content territory (ypp-policy.md), and C8 credibility is structural: the citation is the footage.",
+    "whyNow": "Evergreen conspiracy-adjacent curiosity with a defensible wedge the brief asks for: the saturated mystery space runs on unsourced claims (Atlas Adam's flagged weakness, W3), while this format makes the Nature-paper credibility pattern the entire visual identity. Tier B: multi-hour 'CIA Declassified' marathons and full-doc channels (ENDEVR, Forgotten History) surface as popular results, showing sustained binge demand; recurring FOIA releases (JFK files etc.) provide predictable spike-riding moments.",
+    "searchProbes": [
+     "declassified cia documents explained",
+     "operation northwoods documentary",
+     "mkultra declassified files video"
+    ],
+    "webEvidence": [
+     {
+      "url": "https://www.youtube.com/watch?v=Yyx_ghoa05E",
+      "title": "2+ Hours Of Secrets The CIA Doesn't Want You To Know | CIA Declassified Marathon",
+      "supports": "Tier B: multi-hour declassified-content marathons are surfaced as popular \u2014 binge/watch-time demand for the topic"
+     },
+     {
+      "url": "https://www.youtube.com/playlist?list=PLaevADMuI9-EwUnERXVdKmw8nwWpswuL2",
+      "title": "CIA Declassified | Series | ENDEVR - YouTube",
+      "supports": "Tier B: documentary distributor runs a dedicated declassified series on YouTube \u2014 commercial validation"
+     },
+     {
+      "url": "https://www.youtube.com/watch?v=NGzx86l9aX0",
+      "title": "The CIA's Most Disturbing Secret Operations - Forgotten History",
+      "supports": "Tier B: independent history channels already monetize this topic area \u2014 demand exists; competitor for downstream audit"
+     }
+    ],
+    "risks": [
+     "Ad-suitability: assassination/torture/violence topics can get limited ads, cutting effective RPM \u2014 topic selection must skew toward absurd/espionage-craft files over atrocity files",
+     "Crowded 'CIA secrets' keyword space (ENDEVR, Forgotten History, listicle channels) \u2014 the document-on-screen wedge must be visible in thumbnails to differentiate; verify small-channel rankability downstream",
+     "Reading documents on screen must never become the whole video (slideshow/inauthentic-content pattern) \u2014 analysis layer is mandatory every upload",
+     "Conspiracy-adjacent audience pulls toward fringe claims; drifting past what documents actually say destroys the entire premise (W3)"
+    ]
+   }
+  ]
+ },
+ {
+  "genre": "gaming",
+  "ideas": [
+   {
+    "name": "Sunk Cost (working) \u2014 video game financial autopsies",
+    "oneLiner": "Faceless forensic documentaries on how specific games and studios burned specific amounts of money, with every claim anchored to a public financial document.",
+    "genres": [
+     "gaming",
+     "history"
+    ],
+    "format": "Chaptered 25-40 min narrated documentary, 1-2/week: intro hook, timeline of decisions, the money trail (charts), the collapse, the aftermath verdict.",
+    "titleTemplate": "How [Game/Studio] [Lost/Burned/Wasted] $[N] Million [on/in] [X] \u2014 variants: 'The $[N]M [Mistake/Bet/Lie] That Killed [Studio]' and 'Why [Publisher] Paid $[N]M to [Bury/Cancel] [Game]'. Variables: ~40 years of flops, cancellations, acquisitions-gone-wrong, and lawsuits; new topics minted every earnings season. Easily 50+ titles (E.T., Shenmue, Concord, Anthem, Suicide Squad, Google Stadia, E3's death, Embracer, Telltale, THQ, Atari, 38 Studios...).",
+    "hookEngine": "A-curiosity-stakes",
+    "sampleTitles": [
+     "How Concord Burned $400 Million in 11 Days",
+     "The $70 Million Game That Bankrupted Sega's Golden Age",
+     "Why Google Paid Billions to Kill Its Own Console",
+     "The $90 Million Halo Game Microsoft Buried",
+     "How One Contract Destroyed a $1 Billion Studio",
+     "The State That Lost $75 Million on a Single Video Game",
+     "How Embracer Bought 100 Studios and Lost Everything",
+     "The $265 Million Skull and Bones Disaster Ubisoft Couldn't Cancel",
+     "Why EA Paid $750 Million for a Studio It Shut Down",
+     "The Kickstarter That Raised $4 Million and Shipped Nothing"
+    ],
+    "ownableReframe": "Commodity studio-collapse retellings become forensic accounting: the subject isn't 'what went wrong,' it's the audited money trail \u2014 every video is built around a dollar figure sourced from earnings reports, SEC/court filings, or state audits.",
+    "productionModel": "Solo, script-first: 8-12 hrs research/script from public financials (SEC EDGAR, investor reports, court records \u2014 all citable, free); visuals = own screen capture of the games (buy/own copies), self-made money charts and timelines (policy-strong original assets), press-kit images, archived web pages (Wayback), short trailer excerpts under commentary fair use only when narration directly analyzes them; premium TTS or own VO with 'Altered content' disclosure if synthetic voice is realistic. Licensing note: no longplay-footage reuse without transformation; for dead/unplayable games lean on charts, stills, and documents rather than borrowed gameplay. ~15-20 hrs/video, feasible at 1/week, 2/week with a backlog.",
+    "whyNow": "Tier B only (search snippets, pages not fetched): the format visibly clusters on YouTube in 2024-2026 including 2026 uploads ('games that KILLED their studios', 'The Strange Collapse of the Video Game Industry', 'The Biggest Flop in Gaming History - $400 Million'), and the 2024-2026 industry contraction keeps minting topics. rpm-gaming.md (unverified snippets) puts business-of-gaming/industry-history at the top of the gaming band ($5-8, finance-adjacent upside) \u2014 the best RPM story available in this genre.",
+    "searchProbes": [
+     "how [game] lost millions",
+     "why [studio] shut down documentary",
+     "biggest video game financial disasters"
+    ],
+    "risks": [
+     "Crowded adjacent space (Matt McMuscles' Wha Happun?, Death of a Game) \u2014 must win on the dollar-figure framing, not the topic; downstream audit must check whether sub-50k channels still rank",
+     "Some loss figures are estimates, not filings \u2014 C8 credibility floor requires flagging estimate vs. documented, which softens some titles",
+     "Footage for very old/cancelled games is scarce; chart-heavy segments risk 'slideshow' pattern if narration quality slips (ypp-policy inauthentic-content trigger)",
+     "RPM upside ($5-8 finance-adjacent) rests on unverified snippet evidence (rpm-gaming.md confidence LOW)"
+    ],
+    "webEvidence": [
+     {
+      "url": "https://www.youtube.com/watch?v=qXymZx97TkI",
+      "title": "games that KILLED their studios... (Jan 2026)",
+      "supports": "Tier B: active 2026 demand for studio-collapse gaming docs"
+     },
+     {
+      "url": "https://www.youtube.com/watch?v=y0mPV6XBV0c",
+      "title": "The Biggest Flop in Gaming History - $400 Million, 8 Years Wasted",
+      "supports": "Tier B: dollar-figure-led titles are an existing, working hook in this niche"
+     },
+     {
+      "url": "https://www.youtube.com/watch?v=llTHKy4iFAw",
+      "title": "Concord: The Biggest Failure in Gaming",
+      "supports": "Tier B: recent flops generate documentary coverage and search interest"
+     }
+    ]
+   },
+   {
+    "name": "Patch Verdict (working) \u2014 'worth playing in [year]' re-review machine",
+    "oneLiner": "Purchase-intent re-reviews of back-catalog games: every update, DLC, and price change since launch, exhaustively catalogued, ending in a buy/skip/wait verdict.",
+    "genres": [
+     "gaming"
+    ],
+    "format": "20-35 min chaptered long-form, 1-2/week: what launched broken \u2192 every major patch reviewed in order \u2192 what it costs now \u2192 verdict; plus occasional 'N games finally worth buying' roundups from own back-catalog capture.",
+    "titleTemplate": "Is [Game] Worth Playing in [Year]? Every [Update/DLC/Change] Reviewed \u2014 variants: '[Game] in [Year]: Everything That Changed Since Launch' and '[N] [Genre] Games Finally Worth Buying in [Year]'. Variables: every live-service/patched/remastered game x every year (the year rollover alone re-mints the entire catalog annually) \u2014 50+ titles trivially (No Man's Sky, Cyberpunk, Starfield, Fallout 76, Sea of Thieves, Destiny 2, Halo Infinite, Payday 3, Diablo IV, every annual Steam-sale staple).",
+    "hookEngine": "B-exhaustive-promise",
+    "sampleTitles": [
+     "Is Starfield Worth Playing in 2026? Every Update Since Launch Reviewed",
+     "Is Cyberpunk 2077 Worth It in 2026? Everything CDPR Changed",
+     "No Man's Sky in 2026: All 30+ Major Updates Explained",
+     "Is Fallout 76 Finally Worth Playing in 2026? The Complete Turnaround",
+     "Is Diablo IV Worth Coming Back To? Every Season Reviewed",
+     "Payday 3 One Year Later: Every Patch, Every Fix, Final Verdict",
+     "13 'Broken' Games That Are Finally Worth Buying in 2026",
+     "Is Sea of Thieves Worth Starting in 2026? Everything a New Player Gets",
+     "Halo Infinite in 2026: Everything Added Since the Content Drought",
+     "Is Elden Ring Worth It in 2026? Base Game, DLC, and Price Breakdown"
+    ],
+    "ownableReframe": "Patch notes and old reviews become a consumer-protection verdict: I re-play the current build, catalogue every change against launch-day criticism, and answer the exact question buyers type into search.",
+    "productionModel": "Solo and cheap: own screen capture is 100% of the visuals (Steam sales/Game Pass keep game costs low; capture via OBS while researching), overlaid patch-note excerpts and price-history charts (SteamDB screenshots with commentary), human-directed VO. Zero third-party footage = strongest policy position of the four ideas. 10-15 hrs/video (play current build 4-6 hrs, script 4, edit 4); the roundup format amortizes capture across videos. Fully sustainable at 2/week.",
+    "whyNow": "Tier B (search snippets): the 'worth playing in 2026' query surface is dense with 2026 uploads across many small channels (No Man's Sky, Starfield, Dishonored, Outer Wilds, Fable examples found), showing live search demand that renews every January. rpm-gaming.md (unverified) puts reviews/'is it worth buying' at $5-8 RPM \u2014 the purchase-intent top of the gaming band \u2014 and Steam-sale/seasonal spikes give C4 spike-riding on top of evergreen demand.",
+    "searchProbes": [
+     "is [game] worth playing in 2026",
+     "[game] in 2026 every update",
+     "games worth buying 2026 steam sale"
+    ],
+    "risks": [
+     "W5 warning applies partially: search-intent formats convert subs poorly (Recommended Playing retired at 0.68x); mitigation is the opinionated verdict persona, but sub growth may lag views",
+     "Many small channels already make 'worth it in 2026' videos \u2014 attainability looks good but differentiation rests on the exhaustive change-catalog layer; downstream audit must confirm small channels actually rank",
+     "Playtime is the cost bottleneck: 2/week requires disciplined 4-6 hr capture sessions, not completions",
+     "Year-stamped titles decay each January (though decay is also the renewal mechanism)"
+    ],
+    "webEvidence": [
+     {
+      "url": "https://www.youtube.com/watch?v=-yU6XAQj_NU",
+      "title": "Is No Mans Sky Actually Worth It In 2026? No Mans Sky Review!",
+      "supports": "Tier B: exact search phrasing in active use, 2026"
+     },
+     {
+      "url": "https://www.youtube.com/watch?v=mlKMRmO0pC0",
+      "title": "STARFIELD IN 2026 - Is It Worth Playing?",
+      "supports": "Tier B: launch-vs-now re-review demand for patched games"
+     },
+     {
+      "url": "https://www.youtube.com/watch?v=MfII3iCKOCA",
+      "title": "Is Outer Wilds Still Worth Playing? (2026 Review)",
+      "supports": "Tier B: format works on older back-catalog titles too, widening the topic map"
+     }
+    ]
+   },
+   {
+    "name": "The Real Campaign (working) \u2014 the history your favorite game hid from you",
+    "oneLiner": "Faceless documentaries that fact-check history-set games against the real events, revealing that the true story was stranger, darker, or deliberately softened.",
+    "genres": [
+     "gaming",
+     "history"
+    ],
+    "format": "25-45 min narrated split-screen documentary, 1/week (research-heavy): game scene \u2192 real source \u2192 what actually happened \u2192 why the game changed it; chaptered by event/character for binge viewing.",
+    "titleTemplate": "The Real [Event/Person] Was [Worse/Stranger] Than [Game] Showed \u2014 variants: 'What [Game] [Got Wrong/Couldn't Show/Hid] About [Event]' and 'How Accurate Is [Game]? A [Period] Reality Check'. Variables: every history-set game x every depicted event/figure (Assassin's Creed's 14 eras alone, Ghost of Tsushima, Kingdom Come, Red Dead, Battlefield/CoD campaigns, Total War, Civilization, Age of Empires, Pentiment, Expeditions: Rome...) \u2014 50+ titles from the AC catalog plus WW-shooter campaigns alone.",
+    "hookEngine": "A-curiosity-stakes",
+    "sampleTitles": [
+     "The Real Mongol Invasion Was Worse Than Ghost of Tsushima Showed",
+     "What Assassin's Creed Couldn't Show You About the French Revolution",
+     "The Real Blackbeard Was Stranger Than Black Flag's Version",
+     "Kingdom Come Is 'Historically Accurate' \u2014 Except for One Huge Lie",
+     "What Battlefield 1 Hid About the Harlem Hellfighters",
+     "The Real Cleopatra Would Hate Assassin's Creed Origins",
+     "Red Dead Redemption 2's America Was Real \u2014 and It Was Darker",
+     "The Crusade Assassin's Creed Was Too Scared to Depict Accurately",
+     "What Total War Gets Wrong About Ancient Battles (Every Time)",
+     "The Real Samurai Would Be Unrecognizable to Ghost of Yotei Players"
+    ],
+    "ownableReframe": "Game footage plus public-domain history becomes a fact-check thriller: the subject isn't the game or the history alone, it's the gap between them \u2014 what was changed, softened, or hidden, and why.",
+    "productionModel": "Solo: own screen capture of games I own (in-game photo modes are asset gold), public-domain paintings/maps/photos from Wikimedia Commons, Library of Congress, Rijksmuseum, NARA, and David Rumsey map collection (check per-item licenses \u2014 PD vs CC-BY attribution requirements vary; avoid museum images with claimed reproduction rights), self-made animated maps (simple After Effects/DaVinci templates). Scripts cite real historiography (C8 anchor). 18-25 hrs/video \u2192 realistically 1/week, not 2. Dual-audience discovery: ranks on both game names and history queries.",
+    "whyNow": "Tier B (search snippets): 'historians react' / historical-accuracy content around Assassin's Creed has a proven multi-year audience (History Hit playlist, expert-reacts videos, 'Every AC Game Ranked by Historical Accuracy'), but that field is dominated by on-camera expert formats \u2014 a faceless narrated documentary version is an open lane. Genre guidance explicitly favors gaming-history intersections; history audiences skew 25-40, which rpm-gaming.md (unverified) associates with above-median gaming RPM. New history-set releases (AC installments, Ghost of Yotei) provide C4 launch-spike riding.",
+    "searchProbes": [
+     "assassin's creed historical accuracy",
+     "real history behind [game]",
+     "ghost of tsushima real mongol invasion"
+    ],
+    "risks": [
+     "Highest per-video cost of the four (dual research burden: game capture + real historiography) \u2014 cadence realistically 1/week, so slower watch-hour accumulation to YPP",
+     "Expert-reacts incumbents (History Hit et al.) own some query surface; must verify faceless narrated versions rank (searchProbes)",
+     "Nintendo-style publisher footage strikes are rare for PC/Sony/Ubisoft titles under commentary, but per-publisher footage-policy check needed before topic selection",
+     "Accuracy claims invite pedantic-audience blowback \u2014 C8 requires citing actual historians, which raises script time further"
+    ],
+    "webEvidence": [
+     {
+      "url": "https://www.youtube.com/playlist?list=PL2WivdT7bxl769rdkDZYqaYo3Z7jmFdDI",
+      "title": "Historians React to Assassin's Creed (playlist)",
+      "supports": "Tier B: sustained multi-video demand for game-vs-real-history content"
+     },
+     {
+      "url": "https://www.youtube.com/watch?v=R2d56YZ2yhA",
+      "title": "Every Assassin's Creed Game Ranked by Historical Accuracy",
+      "supports": "Tier B: accuracy-framing works as a title hook in this space"
+     },
+     {
+      "url": "https://www.vice.com/en/article/a-harvard-egyptologist-explain-the-historical-accuracy-of-assassins-creed-origins/",
+      "title": "A Harvard Egyptologist Explains the Historical Accuracy of 'Assassin's Creed: Origins' (Vice)",
+      "supports": "Tier B: mainstream-press interest confirms crossover audience beyond gamers"
+     }
+    ]
+   },
+   {
+    "name": "Delisted (working) \u2014 the games you're no longer allowed to buy",
+    "oneLiner": "Countdown documentaries about games that were delisted, banned, recalled, or legally erased \u2014 and the licensing fights, lawsuits, and scandals that made them disappear.",
+    "genres": [
+     "gaming",
+     "history"
+    ],
+    "format": "30-50 min '10 games' countdown listicle doc (Ancient Indy structure transplanted to a new genre), 1-2/week; each entry: what the game was \u2192 the disappearance event \u2192 the documented reason \u2192 can you still legally play it.",
+    "titleTemplate": "10 Games You're [Not Allowed to Buy/Banned From Playing/Never Supposed to See] [Anymore/in [Country]] + reason clause \u2014 variants: '10 Games [Publisher/Court/Government] [Erased/Recalled/Banned]' and '10 Games That [Vanished/Were Deleted] After [Event]'. Variables: 100s of delistings (licensed-music expiry, studio deaths, server shutdowns), country bans (Germany/Australia/China lists), recalls, lawsuit removals \u2014 and delistings recur monthly, refilling the topic pool. 50+ titles by rotating category x reason x region.",
+    "hookEngine": "A-curiosity-stakes",
+    "sampleTitles": [
+     "10 Games You're Not Allowed to Buy Anymore (And Who Made Them Vanish)",
+     "10 Games Banned in Entire Countries \u2014 For Reasons That Got Worse",
+     "10 Games Deleted From Existence After Their Studios Died",
+     "10 Games Publishers Recalled and Hoped You'd Forget",
+     "10 Games That Vanished the Day Their Licenses Expired",
+     "10 Games You Own That You're No Longer Allowed to Play",
+     "10 Games Courts Ordered Off the Shelves",
+     "10 Games Nintendo Never Wanted You to See Again",
+     "10 Online Games That Died With Their Servers \u2014 Forever",
+     "10 Games So Controversial They Were Erased Twice"
+    ],
+    "ownableReframe": "Game-preservation news becomes a forbidden-catalog thriller: the subject isn't the game, it's why you're not allowed to have it \u2014 each entry anchored to a documented delisting notice, court ruling, or ratings-board decision.",
+    "productionModel": "Solo, template-driven: script from documented sources (Delisted Games database, court records, ratings-board rulings, publisher statements \u2014 C8 anchors); visuals = own capture of physical copies and still-available versions, archived official trailers and press kits used under analytical commentary (transformation is the narration explaining the disappearance \u2014 must stay subordinate per reused-content rules), Wayback Machine storefront screenshots, self-made timeline graphics. Honest constraints: footage of truly erased games may require emulation capture (legal gray zone \u2014 own dumped copies only, never link ROMs) and some entries must be stills+documents only. Listicle structure amortizes research: 10 entries x ~1.5 hrs each + edit \u2248 18 hrs, sustainable at 1-2/week; must vary structure per-video to avoid the inauthentic-content 'template at scale' pattern.",
+    "whyNow": "Tier B and admittedly thinner than the other three: only one strong direct-format match surfaced ('15 Awesome delisted Games you can't buy anymore', Nov 2025), which cuts both ways \u2014 weak validation but an open lane. Indirect demand signals are strong: the 2024-2026 game-preservation wave (Stop Killing Games, The Crew shutdown lawsuits) keeps the 'games being taken from you' grievance in the discourse, and the format ports the single most-proven title machine in taste-signals.md (Ancient Indy/Atlas Adam's prohibition listicle, 25+ uploads validated) to fresh subject matter. Downstream searchProbes must confirm demand before this advances.",
+    "searchProbes": [
+     "delisted games you can't buy anymore",
+     "games banned in countries",
+     "games that disappeared forever"
+    ],
+    "risks": [
+     "Weakest direct demand evidence of the four \u2014 one format-match found; could be an open lane or a validated dead end (searchProbes decide)",
+     "Highest reused-content exposure: entries on unplayable games depend on archived trailers/footage, so the commentary layer must carry each segment (ypp-policy W2)",
+     "Structural closeness to Ancient Indy/Atlas Adam requires per-video variation to dodge both Guardrail 6 clone risk and the 'templated at scale' inauthentic-content pattern",
+     "Emulation footage is a legal/policy gray zone; some entries limited to stills and documents, which stresses narration quality"
+    ],
+    "webEvidence": [
+     {
+      "url": "https://www.youtube.com/watch?v=-qOCYmw0ng0",
+      "title": "15 Awesome delisted Games you can't buy anymore on the Steam Deck (Nov 2025)",
+      "supports": "Tier B: the exact prohibition framing exists in the niche but is sparsely served \u2014 open-lane hypothesis"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "genre": "AI",
+  "ideas": [
+   {
+    "name": "Black Box Down (AI failure forensics)",
+    "oneLiner": "Mayday-style disaster documentaries for AI and algorithm catastrophes: each episode forensically reconstructs one failure \u2014 the timeline, the ignored warnings, the quantified damage \u2014 from court filings and official post-mortems.",
+    "genres": [
+     "AI",
+     "history (recent tech history framing)"
+    ],
+    "format": "Single-case narrated forensic documentary, 25-40 min, chaptered timeline structure (The System / The Warnings / The 45 Minutes / The Fallout), 1/week",
+    "titleTemplate": "The {AI/Algorithm/Chatbot} That {destroyed/lost/denied/erased} {quantified stakes} \u2014 {withheld-cause clause: 'and Nobody Hit the Kill Switch' / 'in 45 Minutes' / 'Before Anyone Noticed'}",
+    "hookEngine": "A-curiosity-stakes",
+    "sampleTitles": [
+     "The Algorithm That Lost $440 Million in 45 Minutes \u2014 and Nobody Hit the Kill Switch",
+     "The AI That Bought 7,000 Houses \u2014 Then Bankrupted Its Own Division",
+     "The Chatbot That Erased $100 Billion in One Sentence",
+     "The Algorithm That Accused 26,000 Families of Fraud \u2014 All of Them Innocent",
+     "The AI That Graded a Nation's Exams \u2014 and Ruined the Wrong Students",
+     "The Hiring AI Amazon Built, Buried, and Hoped You'd Never Hear About",
+     "The Medical AI That Missed Sepsis 67% of the Time \u2014 While Hospitals Kept Using It",
+     "The Deepfake That Stole $25 Million in One Video Call",
+     "The Drive-Thru AI That Wouldn't Stop Adding McNuggets \u2014 Until McDonald's Pulled the Plug",
+     "The Trading Algorithm That Crashed the Entire Market in 36 Minutes",
+     "The Welfare AI That Sent Debt Letters to 400,000 People Who Owed Nothing",
+     "The Self-Driving Car That Saw Her \u2014 and Decided Not to Brake"
+    ],
+    "ownableReframe": "Aviation-disaster 'black box investigation' storytelling applied to commodity AI-failure news: the subject isn't the technology, it's the reconstructed chain of human decisions that let the machine fail \u2014 every claim anchored to a filing, ruling, or official post-mortem.",
+    "productionModel": "Solo, ~2 days/episode: original script from public primary documents (SEC/court filings via PACER/CourtListener, government inquiry reports \u2014 e.g. Dutch parliamentary toeslagenaffaire report, Australian Robodebt Royal Commission \u2014 all public record); visuals = on-screen document highlights, After Effects/Canva timeline motion graphics, licensed stock b-roll (Storyblocks/Artgrip subscription), self-made diagrams; human-directed premium TTS or own VO with named narrator persona. Policy: no news-clip compilations (reused-content trap per W2); documents shown under commentary; nothing needing 'Altered content' disclosure unless a photoreal AI recreation is used (then disclose). Defamation discipline: state only adjudicated/officially documented findings.",
+    "whyNow": "Fresh cases mint monthly (2024-26 produced Cruise, nH Predict, deepfake heists) while old cases stay evergreen \u2014 Knight Capital (2012) and the Flash Crash (2010) still headline 2026 listicles. Evidence is Tier B only: sustained listicle/search coverage (CIO's evergreen '10 famous AI disasters', DigitalDefynd's 'Top 40 AI Disasters [2026]', Live Science's '32 times AI got it catastrophically wrong') proves durable interest in the topic pool; no direct proof yet that a YouTube channel owns this format (that's the opportunity claim, unverified \u2014 competition audit downstream). Faceless disaster-doc economics are proven by adjacent channels (Fascinating Horror/Plainly Difficult class), per general industry knowledge, not verified this session.",
+    "searchProbes": [
+     "AI disaster documentary",
+     "the algorithm that lost 440 million",
+     "AI gone wrong explained"
+    ],
+    "risks": [
+     "RPM may land below the pure AI-tools band ($8-20 per rpm-AI.md, itself LOW confidence) because the audience skews general-interest/true-crime rather than B2B buyers",
+     "Research-heavy single-case format caps cadence at ~1/week solo; a dry spell of big cases forces reaching into thinner incidents",
+     "Legal sensitivity: naming companies/executives requires sticking strictly to documented findings; one careless claim risks strikes (kill condition per ypp-policy checklist)",
+     "C1 partially unproven: the skeleton generates 50+ titles on paper but no reference channel has run this exact template 25+ times"
+    ],
+    "webEvidence": [
+     {
+      "url": "https://www.cio.com/article/190888/5-famous-analytics-and-ai-disasters.html",
+      "title": "10 famous AI disasters | CIO",
+      "supports": "Tier B: durable editorial/search demand for the AI-disaster topic pool"
+     },
+     {
+      "url": "https://digitaldefynd.com/IQ/top-ai-disasters/",
+      "title": "Top 40 AI Disasters [Detailed Analysis][2026] - DigitalDefynd",
+      "supports": "Tier B: 40+ enumerable well-documented cases \u2014 supports the 50+ title claim"
+     },
+     {
+      "url": "https://www.livescience.com/technology/artificial-intelligence/32-times-artificial-intelligence-got-it-catastrophically-wrong",
+      "title": "32 times artificial intelligence got it catastrophically wrong | Live Science",
+      "supports": "Tier B: mainstream-outlet appetite for the catastrophic-AI frame"
+     }
+    ]
+   },
+   {
+    "name": "Enemy Logic (Gaming x AI intersection)",
+    "oneLiner": "Faceless listicle deep-dives exposing the hidden AI systems inside famous games \u2014 the cheating, the rubber-banding, the fake difficulty, the enemies programmed to miss \u2014 framed as 'the machine on the other side is rigging the match.'",
+    "genres": [
+     "gaming",
+     "AI"
+    ],
+    "format": "Numbered listicle deep-dive, 20-30 min, own-recorded gameplay + diagram overlays, 1-2/week; occasional single-game 30-min deep dives on breakouts",
+    "titleTemplate": "{N} Games Where the AI {secret manipulation clause: 'Is Secretly Cheating You' / 'Pretends to Be Dumber Than It Is' / 'Is Programmed to Miss' / 'Changes the Rules When You're Losing'}",
+    "hookEngine": "A-curiosity-stakes",
+    "sampleTitles": [
+     "9 Games Where the AI Is Secretly Cheating You",
+     "7 Games That Secretly Get Easier When You Keep Dying",
+     "10 Enemies Programmed to Miss You on Purpose",
+     "8 Games Where the AI Is Watching Everything You Do",
+     "11 Games That Lie to You About Your Odds",
+     "9 Bosses Designed to Let You Win",
+     "7 Games Where the AI Breaks Its Own Rules to Beat You",
+     "10 Games With a Hidden Director Deciding When You Die",
+     "8 Racing Games That Secretly Slow Down to Keep It Close",
+     "9 Games Where the Smartest Enemy Is Faking It"
+    ],
+    "ownableReframe": "Developer-side game-AI trivia (GDC talks, dev interviews, decompiled code findings) reframed as a player-side expos\u00e9 \u2014 not 'how game AI works' for developers, but 'here's exactly how the game is manipulating you' with the player's pride as the stakes.",
+    "productionModel": "Solo, ~2-3 days/video: own-recorded gameplay capture via OBS/emulator (never other creators' footage \u2014 reused-content safe harbor requires it); sources = public GDC Vault talks, developer interviews, published decompilation write-ups, all cited on screen; simple behavior-tree/state-machine diagrams in Figma/After Effects; own VO or directed premium TTS. Gameplay + substantial original analysis is the classic monetizable transformation per ypp-policy.md. Game library cost is real but modest (many canonical examples are older/cheap titles: FEAR, L4D, Halo CE, RE4, Mario Kart, Civilization).",
+    "whyNow": "The listicle format is already validated in the wild \u2014 search surfaced '10 Games Where the Enemy AI Will Actually Outsmart You' as an existing YouTube video (Tier B), and the incumbent 'AI and Games' (Dr. Tommy Thompson) proves durable audience interest but serves a developer/academic audience with soft-framed titles, leaving the stakes-framed player-facing lane open (differentiation claim, unverified until competition audit). Topic pool is evergreen: dynamic difficulty, rubber-banding, and famous enemy-AI systems in classic games don't decay, and every new AAA release adds material. B O Z U S E's 5.1x views/subs shows gaming listicle discovery traffic works from small sub counts (taste-signals T4).",
+    "searchProbes": [
+     "games where the AI cheats",
+     "enemy AI secretly explained",
+     "dynamic difficulty hidden games"
+    ],
+    "risks": [
+     "RPM: this monetizes closer to gaming ($1-5 per scoring framework's gaming band) than to AI-tools rates \u2014 the $2,000/mo goal needs roughly 3-5x the views of the pure-AI concepts; this is the concept's kill-risk and must be priced honestly at scoring",
+     "Incumbent overlap risk with AI and Games and generic gaming-listicle channels; the stakes-framed angle must survive the downstream competition audit",
+     "Claims about hidden AI behavior must trace to citable dev sources or reproducible tests (C8) \u2014 repeating gaming-forum myths would rot the credibility floor",
+     "Per-video variation needed (mix listicles with deep dives) so the template doesn't pattern-match 'inauthentic content' at scale"
+    ],
+    "webEvidence": [
+     {
+      "url": "https://www.youtube.com/watch?v=_5dkr-H3Kpc",
+      "title": "10 Games Where the Enemy AI Will Actually Outsmart You - YouTube",
+      "supports": "Tier B: the exact listicle framing already exists on YouTube \u2014 demand signal for the format (views not verified)"
+     },
+     {
+      "url": "https://www.youtube.com/@AIandGames",
+      "title": "AI and Games - YouTube",
+      "supports": "Tier B: proven long-term audience for game-AI explanation content; incumbent serves the developer angle, not the player-stakes angle"
+     }
+    ]
+   },
+   {
+    "name": "The Complete AI Stack (per-profession workflow guides)",
+    "oneLiner": "Recommended Playing's completionist-guide model applied to occupations: one definitive, end-to-end, screen-captured AI workflow walkthrough per profession, titled to exact search phrasing so no second video is ever needed.",
+    "genres": [
+     "AI"
+    ],
+    "format": "Exhaustive screen-capture walkthrough, 25-45 min, fixed chapter skeleton (intake \u2192 drafting \u2192 admin \u2192 client comms \u2192 compliance caveats), 1/week initially, 2/week once the segment library builds",
+    "titleTemplate": "AI for {Profession}: The Complete Workflow \u2014 Every Tool, Step by Step ({N} Tools, Nothing Skipped)",
+    "hookEngine": "B-exhaustive-promise",
+    "sampleTitles": [
+     "AI for Real Estate Agents: The Complete Workflow \u2014 Every Tool, Step by Step",
+     "AI for Paralegals: The Complete Workflow \u2014 Every Tool, Step by Step",
+     "AI for Accountants: The Complete Workflow \u2014 Every Tool, Step by Step",
+     "AI for Teachers: The Complete Workflow \u2014 Every Tool, Step by Step",
+     "AI for Recruiters: The Complete Workflow \u2014 Every Tool, Step by Step",
+     "AI for Insurance Agents: The Complete Workflow \u2014 Every Tool, Step by Step",
+     "AI for Property Managers: The Complete Workflow \u2014 Every Tool, Step by Step",
+     "AI for Wedding Planners: The Complete Workflow \u2014 Every Tool, Step by Step",
+     "AI for Freight Brokers: The Complete Workflow \u2014 Every Tool, Step by Step",
+     "AI for Grant Writers: The Complete Workflow \u2014 Every Tool, Step by Step",
+     "AI for Physical Therapists: The Complete Admin Workflow \u2014 Every Tool, Step by Step"
+    ],
+    "ownableReframe": "Commodity AI-tool content transformed by exhaustive per-profession specificity \u2014 the value isn't the tools (everyone covers those), it's one profession's entire working day rebuilt end-to-end in a single video, the 'no follow-up video needed' moat ported from game guides to jobs.",
+    "productionModel": "Solo, ~2-3 days/video: OBS screen capture of free-tier/trial tools driving self-made realistic demo documents (fake listings, sample ledgers, mock case files \u2014 zero third-party footage, the cleanest possible policy profile); Canva/Figma chapter cards; own VO. Research load is the real cost: ~1 day per profession interviewing sources/reading trade forums to get workflows credible. AI used for script drafting is fine and non-disclosable per ypp-policy.md; everything on screen is original capture, so reused-content risk is ~zero. Fixed chapter skeleton keeps edit time flat; per-profession content provides the per-video variation YPP wants.",
+    "whyNow": "Highest-RPM concept of the four: rpm-AI.md's (LOW-confidence) $8-20 band tops out exactly here \u2014 vidIQ-attributed snippets put AI tutorials/software reviews at $10-28 CPM and B2B/SaaS at $15-28 CPM, and OutlierKit's 2026 automation-niches piece flags profession-specific AI tutorials as a growth area (all Tier B, none fetched). Demand claim: professionals search their own job title + AI, giving 100+ enumerable low-competition long-tail keywords instead of one saturated head term ('best AI tools'). Evergreen-ized by design: workflows outlive individual tool updates, and annual refresh videos are new content, not waste \u2014 the Recommended Playing launch-window timing model applied to major tool releases.",
+    "searchProbes": [
+     "AI for real estate agents full course",
+     "AI tools for accountants complete guide"
+    ],
+    "risks": [
+     "W5 warning applies in full: search-guide channels convert views to subscribers poorly (Recommended Playing retired at 0.68x views/subs) \u2014 fine for the AdSense goal, weak for channel equity and YPP's 1,000-sub gate specifically",
+     "Per-profession demand depth is unverified: some professions may be too small to clear view thresholds; needs keyword-volume validation downstream",
+     "Tool churn forces refresh cycles; a video can decay in 12-18 months (mitigated but not eliminated by workflow-first framing)",
+     "'Make money with AI' adjacency is saturated and policy-scrutinized per rpm-AI.md \u2014 must stay strictly on practitioner workflows, never income-claim framing",
+     "Getting workflows credible for professions the creator hasn't worked in is the C8 challenge; errors get called out hard by professional audiences"
+    ],
+    "webEvidence": [
+     {
+      "url": "https://vidiq.com/blog/post/profitable-ai-niches-youtube/",
+      "title": "The 8 Most Profitable AI Niches for YouTube in 2026 (vidIQ)",
+      "supports": "Tier B: AI tutorials/software reviews $10-28 CPM, B2B/SaaS $15-28 CPM per search snippet \u2014 top of genre RPM range"
+     },
+     {
+      "url": "https://outlierkit.com/blog/youtube-automation-niches",
+      "title": "Top Niches for YouTube Automation 2026: 50+ Profitable Sub-Niches (OutlierKit)",
+      "supports": "Tier B: profession-specific AI tutorial content flagged as profitable 2026 sub-niche"
+     },
+     {
+      "url": "https://ryandoser.com/ai-youtube-channels/",
+      "title": "10 Best AI YouTube Channels to Follow in 2026",
+      "supports": "Tier B: AI-education channel demand context; also evidence the general AI-tools lane is crowded (supports going long-tail per-profession)"
+     }
+    ]
+   },
+   {
+    "name": "Deciphered by Machine (AI x Ancient History intersection)",
+    "oneLiner": "Documentary channel about the ancient mysteries no human could crack until an algorithm did \u2014 carbonized scrolls read by neural nets, lost cities found by LiDAR ML, dead scripts yielding to language models \u2014 with the revealed content as the withheld payoff.",
+    "genres": [
+     "AI",
+     "history"
+    ],
+    "format": "Single-mystery narrated documentary, 30-45 min, three-act structure (The Unreadable Thing / The Machine / What It Said), 1/week with spike-riding uploads on new research announcements",
+    "titleTemplate": "AI Just {Read/Found/Decoded} {ancient object/site} {Sealed/Lost/Unreadable} for {N} Years \u2014 {withheld-payoff clause: 'Here's What It Said' / 'And It Names Someone' / 'Historians Weren't Ready'}",
+    "hookEngine": "A-curiosity-stakes",
+    "sampleTitles": [
+     "AI Just Read a Scroll Sealed for 2,000 Years \u2014 Here's What It Said",
+     "AI Found 303 Desert Drawings Humans Missed for a Century",
+     "The Burnt Library Only a Neural Network Could Open",
+     "AI Just Translated 5,000-Year-Old Tablets \u2014 Faster Than Any Human Alive",
+     "The Lost Cities an Algorithm Found Under the Amazon",
+     "AI Is Reading the Dead Sea Scrolls \u2014 and It Found a Second Author",
+     "The Manuscript No Human Has Ever Read \u2014 Now the Machines Are Trying",
+     "AI Just Restored a Greek Inscription Broken for 2,500 Years \u2014 DeepMind Published What It Says",
+     "The Roman Scroll That Survived Vesuvius \u2014 Read End to End for the First Time",
+     "AI Found a Maya Megacity Nobody Believed Existed",
+     "The 4,000-Year-Old Language AI Is Finally Cracking"
+    ],
+    "ownableReframe": "The proven ancient-mystery hook rebuilt from the machine's side: not Ancient Indy's 'place you're not allowed to see' but 'the text/city no human COULD read until an algorithm did' \u2014 the forbidden barrier is physics and time, the payoff is what was actually revealed, and every episode anchors to a Nature/Science paper or official project (the exact C8 citation pattern).",
+    "productionModel": "Solo, ~2-3 days/video: script from published papers and project sites (scrollprize.org, DeepMind's Ithaca paper, Yamagata Nazca study); visuals = open-access museum imagery (Met Open Access, Smithsonian Open Access, Wikimedia Commons \u2014 AVOID British Museum images: CC BY-NC-SA blocks monetized use), NASA/ESA/USGS public-domain satellite imagery, own maps in QGIS, own diagrams of the ML pipelines, stylized (non-photoreal) AI-generated reconstruction art with 'Altered content' disclosure if any output could read as real; own VO/named narrator. Paper figures used sparingly under commentary/criticism with on-screen citation.",
+    "whyNow": "Strongest demand-spike evidence of the four, though all Tier B: the June 2026 end-to-end reading of scroll PHerc. 1667 drew CNN, CBS, NatGeo, and Big Think coverage plus multiple YouTube videos in search results \u2014 and the Vesuvius Challenge is an ongoing prize pipeline that will keep minting announcements for years. Meanwhile two reference channels (Ancient Indy, Atlas Adam) prove the evergreen ancient-mystery appetite sustains near-daily uploads at 1.3x views/subs (Tier A, from taste profiles), and this concept taps the same demand pool with AI-genre RPM upside and a hard-citation credibility floor Atlas Adam lacks.",
+    "searchProbes": [
+     "AI deciphered ancient scroll",
+     "Herculaneum scroll AI explained",
+     "AI archaeology discoveries documentary"
+    ],
+    "risks": [
+     "Smallest topic pool of the four: ~50-70 strong titles exist today, then depends on research-news pacing; a thin year forces either padding or drifting toward fringe claims (which C8/W3 forbids)",
+     "Blended RPM: history-documentary viewership may dilute the AI-band RPM; actual rate unknowable pre-launch",
+     "Proximity to reference channels: must hold the machine-side framing rigorously or it decays into an Ancient Indy clone (Guardrail 6 kill risk)",
+     "Mainstream outlets (CNN, NatGeo, Kurzgesagt-class channels) cover the biggest stories within days \u2014 the channel wins on depth and the 30-45 min treatment, not speed; that thesis is unverified",
+     "Image licensing discipline is a per-episode tax (open-access verification for every asset)"
+    ],
+    "webEvidence": [
+     {
+      "url": "https://scrollprize.org/",
+      "title": "Vesuvius Challenge \u2014 Reading the Herculaneum Scrolls with AI",
+      "supports": "Tier B: ongoing prize pipeline = recurring future announcements to spike-ride"
+     },
+     {
+      "url": "https://www.cnn.com/2026/06/26/science/papyrus-scroll-vesuvius-ai-scli-intl",
+      "title": "Papyrus scroll burnt to a crisp during Vesuvius eruption deciphered with help of AI | CNN",
+      "supports": "Tier B: June 2026 mainstream demand spike for the flagship topic"
+     },
+     {
+      "url": "https://www.cbsnews.com/news/ancient-scrolls-mount-vesuvius-eruption-ai-decoding/",
+      "title": "Scientists decipher new secrets from ancient scrolls scorched by Vesuvius eruption - CBS News",
+      "supports": "Tier B: multi-outlet coverage breadth of the AI-decipherment story"
+     },
+     {
+      "url": "https://www.nationalgeographic.com/premium/article/herculaneum-scrolls-vesuvius-challenge-seales",
+      "title": "AI just deciphered part of the Herculaneum Scrolls | National Geographic",
+      "supports": "Tier B: premium-outlet treatment signals durable documentary-grade interest, not a one-day news blip"
+     },
+     {
+      "url": "https://www.youtube.com/watch?v=51XHIoV2HwU",
+      "title": "AI is Unwrapping COMPLETE Herculaneum Scrolls - BREAKING ARCHAEOLOGY NEWS - YouTube",
+      "supports": "Tier B: existing YouTube coverage of the topic exists (views not verified) \u2014 demand present, depth-lane still open is the unverified claim"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "genre": "travel",
+  "ideas": [
+   {
+    "name": "Exit Economics (working: 'The Getaway Ledger')",
+    "oneLiner": "Faceless map-and-data channel that audits whether your money actually survives moving abroad \u2014 cost-of-living, visas, taxes, and the catch nobody mentions \u2014 pulling travel AdSense toward finance-adjacent RPM.",
+    "genres": [
+     "travel"
+    ],
+    "format": "Long-form narrated listicle/data explainer, 20-30 min, animated maps + charts + stock b-roll, 1-2/week",
+    "titleTemplate": "[N] + [country set or dollar figure] + [economic consequence/stakes clause] \u2014 e.g. \"{N} Countries Where {$X/month} {beats/buys/destroys} {benchmark}\" / \"{N} '{label}' Countries That {hidden catch}\". Variables: 60+ viable countries x ~10 money angles (rent, retirement, taxes, healthcare, golden visas, 'quietly got expensive', 'will pay you to move') = 500+ titles.",
+    "hookEngine": "A-curiosity-stakes",
+    "sampleTitles": [
+     "7 Countries Where $1,500 a Month Beats a $100K Salary in America",
+     "The $2,000/Month Retirement Map: 9 Countries Where Social Security Is Actually Enough",
+     "5 Countries That Will Pay You to Move There (Before the Programs Close)",
+     "9 Countries Where Rent Is Under $500 \u2014 and Why Locals Are Furious About It",
+     "7 'Cheap' Countries That Quietly Got Expensive in 2026",
+     "The Hidden Tax Trap Inside 7 'Zero-Tax' Countries",
+     "6 Countries Where a House Costs Less Than a Used Car \u2014 Here's the Catch",
+     "10 Countries Americans Are Fleeing To, Ranked by What You Actually Keep",
+     "$500 vs $5,000 a Month: The Exact Same Life in 6 Different Countries",
+     "The Only 8 Countries Where a US Passport Still Buys a Better Life"
+    ],
+    "ownableReframe": "Turns free public cost/visa/tax data into a stakes-driven exit-plan audit \u2014 the subject is never the destination, it's whether your money and paperwork survive it (every video ends with 'the catch').",
+    "productionModel": "Solo, ~12-16 hrs/video: original script from public datasets (World Bank CC BY 4.0, OECD, Eurostat, IMF, official government visa/tax portals \u2014 avoid Numbeo republication, its ToS restricts reuse; cite state.gov advisories); maps built free in QGIS/Flourish over Natural Earth (public domain); chart animations in After Effects or Canva; b-roll from Pexels/Mixkit (free license) or Storyblocks (~$30/mo, cleared for monetized YT); own VO or human-directed premium TTS with 'Altered content' disclosure if voice is synthetic-realistic. Policy: analysis-over-data is inherently transformative; every dollar claim needs an on-screen citation (C8 credibility floor) since this is YMYL-adjacent.",
+    "whyNow": "Finance-adjacent travel is the documented RPM upside in this genre (~$9-14 vs $3-8 general travel per rpm-travel.md \u2014 explicitly LOW-confidence/unfetched, Tier B at best). Demand signal: 2026-dated retire-abroad videos are being actively produced ('Top 10 Places To Retire in 2026', Jan 2026) and Feedspot tracks 100+ expat channels \u2014 but incumbents are face-driven vloggers, leaving the data/map treatment open. All evidence Tier B search-result titles; view counts unverified \u2014 downstream searchProbes must confirm.",
+    "searchProbes": [
+     "cheapest countries to live in 2026",
+     "retire abroad on $2000 a month",
+     "countries that pay you to move there"
+    ],
+    "risks": [
+     "RPM upside rests on unverified LOW-confidence sources (rpm-travel.md caveat) \u2014 the whole finance-adjacency thesis needs downstream validation",
+     "YMYL-adjacent money/visa claims: one wrong tax claim damages the credibility floor; requires real fact-checking time per video",
+     "Face-driven expat incumbents win on lived authenticity; a faceless channel must win on data rigor instead, unproven in this sub-niche",
+     "Data staleness forces annual re-makes (mitigation: '(2026)' titles create a built-in annual refresh catalog)"
+    ],
+    "webEvidence": [
+     {
+      "url": "https://www.youtube.com/watch?v=OCB0cw0c1nw",
+      "title": "Top 10 Places To Retire in 2026 (Visas, Taxes, Healthcare, Costs) - YouTube",
+      "supports": "Tier B (search-result title only, page not fetched): creators are actively shipping 2026-dated numbered retire-abroad listicles \u2014 format demand is live"
+     },
+     {
+      "url": "https://videos.feedspot.com/expats_youtube_channels/",
+      "title": "100 Expats YouTubers You Must Follow in 2026",
+      "supports": "Tier B: a maintained 100-channel directory implies a large active niche; per search summary most listed channels are personality vloggers, not data/map channels"
+     },
+     {
+      "url": "https://www.youtube.com/watch?v=gUZgFXLFrGg",
+      "title": "Cheapest Places to Retire Abroad in 2026 | Real Expat Budgets - YouTube",
+      "supports": "Tier B: budget-specific framing ('rent under $400/month') is the exact hook class this channel would industrialize"
+     }
+    ]
+   },
+   {
+    "name": "The No-Go Atlas",
+    "oneLiner": "The travel guide inverted: reviews the world's forbidden, restricted, and erased places as if they were destinations \u2014 entry rules, what's behind the fence, and what happened to the people who tried.",
+    "genres": [
+     "travel"
+    ],
+    "format": "Long-form narrated countdown docs, 30-45 min, maps + CC/public-domain imagery + Google Earth flyovers, 1-2/week",
+    "titleTemplate": "[N] + [place category: islands/cities/borders/zones/beaches] + [prohibition or consequence clause] \u2014 e.g. \"{N} {place type} You're Not Allowed to Visit \u2014 {what happens if you try}\". ~15 place categories x ~8 prohibition clauses (banned, guarded, erased, blurred, one-day-a-year, federal crime) = 100+ titles; the countdown format lets each place recombine across videos.",
+    "hookEngine": "A-curiosity-stakes",
+    "sampleTitles": [
+     "10 Islands You're Not Allowed to Visit \u2014 and What Happens If You Try",
+     "The 7 Cities on Earth Where Tourists Are Banned",
+     "9 Borders You Can See But Never Cross",
+     "8 Places Google Maps Blurs Out \u2014 Here's What's Actually There",
+     "10 Exclusion Zones You Can Legally Enter \u2014 For Exactly One Day a Year",
+     "7 Beaches Where Setting Foot Is a Federal Crime",
+     "The 8 Countries Almost No Passport Can Get You Into",
+     "The 9 Most Guarded Places on Earth (and the Tourists Who Tried Anyway)",
+     "10 Places Governments Erased From the Travel Map",
+     "6 Hotels You Can See From the Road But Never Book"
+    ],
+    "ownableReframe": "Writes real 'entry requirements' pages for places no guidebook can cover \u2014 every segment is structured like a destination review (how to get near it, the legal line, the documented consequence, the citable source), inverting travel-guide grammar onto inaccessible places.",
+    "productionModel": "Solo, ~14-18 hrs/video: original script sourced from government travel advisories, court records, UNESCO and news archives (citations on screen = Ancient Indy credibility pattern); visuals from Wikimedia Commons CC (verify each license \u2014 many iconic 'forbidden place' photos are Getty/agency-licensed, curate CC-only), NASA/USGS/Sentinel-2 satellite imagery (public domain/open), Internet Archive & Prelinger newsreels (public domain), Google Earth Studio flyovers (permitted in online video with on-screen attribution per Google geo-guidelines \u2014 verify current terms before launch); maps in QGIS/Natural Earth. Narration-led structure keeps third-party imagery subordinate to commentary (reused-content safe harbor).",
+    "whyNow": "The 'forbidden places' format shows continuous multi-year output with fresh uploads dated Jan-Jun 2026 in search results, indicating recurring browse demand rather than a spent trend (all Tier B: titles/dates from search results, no view counts fetched). It maps directly onto the strongest documented hook engine in the taste file (Engine A prohibition/consequence, C2) while staying evergreen (C4).",
+    "searchProbes": [
+     "forbidden places you can't visit",
+     "most restricted places on earth 2026",
+     "islands you are not allowed to visit"
+    ],
+    "risks": [
+     "Closest of the four to a taste-reference hook (Ancient Indy's prohibition machinery) \u2014 Guardrail 6 scrutiny required; differentiation is modern/geopolitical subject + guidebook-inversion structure, and that must be visibly maintained",
+     "Crowded listicle space (multiple existing videos found, some likely from large channels) \u2014 competition audit downstream is decisive",
+     "Sensationalism pressure: the niche's top performers lean fringe (Atlas Adam warning W3); holding the citation-anchored version may cost some CTR",
+     "Finite roster of truly famous forbidden places; long-tail videos depend on deep-cut research"
+    ],
+    "webEvidence": [
+     {
+      "url": "https://www.youtube.com/watch?v=pCV1IQuso64",
+      "title": "50 Forbidden Places ERASED From Your Travel Map - YouTube",
+      "supports": "Tier B: exhaustive-count forbidden-places long-form exists (June 2025 per search summary) \u2014 format viability signal, view count unverified"
+     },
+     {
+      "url": "https://www.youtube.com/watch?v=N3gIwKwL3O0",
+      "title": "STRICTLY FORBIDDEN: 30 Most Deadly Places on Earth | 4K Travel - YouTube",
+      "supports": "Tier B: Jan 2026 upload in the exact niche \u2014 demand is current, not historical"
+     },
+     {
+      "url": "https://www.youtube.com/watch?v=TbWGcp-oH5Y",
+      "title": "13 Forbidden Places on Earth You're Not Allowed To Visit - YouTube",
+      "supports": "Tier B: May 2026 upload; multiple independent channels shipping the format within the last 12 months suggests recurring browse demand"
+     }
+    ]
+   },
+   {
+    "name": "What Killed This City? (history x travel)",
+    "oneLiner": "Forensic autopsies of dead and dying cities \u2014 each episode reconstructs the boom, finds the fracture, names the killer, and ends with what a visitor would find standing there today, told through archives, maps, and then-vs-now satellite imagery.",
+    "genres": [
+     "history",
+     "travel"
+    ],
+    "format": "Single-subject narrated documentary, 20-30 min, archival photos + map animations + satellite then/now, 1-2/week",
+    "titleTemplate": "\"What Killed {Place}?\" + [identity/irony subclause] \u2014 brand-phrase machine in the Pitch Meeting/OverSimplified class: fixed phrase carries the promise, the place is the variable. Wikipedia's ghost-town and lost-city indexes alone supply 300+ candidate subjects (mining towns, disaster zones, planned utopias, war-frozen resorts, failed megaprojects), so 50+ titles are writable today.",
+    "hookEngine": "A-curiosity-stakes",
+    "sampleTitles": [
+     "What Killed Kolmanskop? The Diamond Town the Desert Swallowed",
+     "What Killed Pripyat? The 36 Hours That Emptied a City of 49,000",
+     "What Killed Centralia? The American Town That's Been on Fire for 60 Years",
+     "What Killed Hashima? Japan's Concrete Battleship Island",
+     "What Killed Varosha? The Beach Resort Frozen Since 1974",
+     "What Killed Fordl\u00e2ndia? Henry Ford's Utopia in the Amazon",
+     "What Killed Ani? The Medieval City of 1,001 Churches",
+     "What Killed Bodie? The Gold Town Where Time Stopped in 1942",
+     "What Killed Craco? The Italian Hill Town That Slid Off Its Mountain",
+     "What Killed Kayak\u00f6y? The Greek Town Turkey Left Empty for 100 Years",
+     "What Killed Plymouth? The Caribbean Capital Buried by Its Own Volcano"
+    ],
+    "ownableReframe": "Treats commodity history (abandoned-places trivia) as a crime scene investigation with a travel payoff \u2014 the killer is named, the evidence is mapped, and the final act tells you what's legally visitable at the site today, which no history channel and no urbex channel does together.",
+    "productionModel": "Solo, ~16-20 hrs/video: original scripts from books/newspapers/academic sources; visuals from Library of Congress + national archives (public domain), Internet Archive/Prelinger newsreels (public domain), Wikimedia Commons CC (license-check each), Landsat/Sentinel-2 open imagery for then-vs-now dissolves, Google Earth Studio flyovers (attribution required), QGIS map animations, occasional Pexels/Storyblocks b-roll. Constraint: do NOT lift urbex explorers' footage (third-party, reused-content trap) \u2014 stills + satellite + maps carry the visuals. Single-subject structure gives natural per-video variation, easing the inauthentic-content 'templated at scale' pattern-match versus listicle formats.",
+    "whyNow": "Lost-cities/ghost-town fascination is mainstream-perennial \u2014 NatGeo, Time, and Reader's Digest all maintain listicles on it \u2014 but this is the weakest-evidenced of the four ideas: probes returned articles, not YouTube view data (Tier B, and thin). The bet is on the hook engine and format class (brand-phrase single-subject docs, validated by two taste references) more than on measured niche demand; searchProbes below are load-bearing.",
+    "searchProbes": [
+     "what happened to Hashima island",
+     "ghost town documentary",
+     "abandoned city explained"
+    ],
+    "risks": [
+     "Weakest demand evidence of the four \u2014 probes surfaced magazine listicles, not proven YouTube view velocity; could fail the dimension-1 evidence bar",
+     "Single-subject titles ride browse, not search phrasing \u2014 cold-start discovery is slower than listicles (mitigation: subjects with existing search demand like Pripyat/Hashima first)",
+     "Adjacent channels (disaster-history, urbex) partially overlap; the crime-scene+travel-payoff structure must stay visibly distinct",
+     "Per-episode research load is the highest of the four; 2/week may be optimistic at quality (1/week more realistic early)"
+    ],
+    "webEvidence": [
+     {
+      "url": "https://www.nationalgeographic.com/history/article/160501-atlas-lost-cities-ghost-town-travel-chernobyl-pompeii-ngbooktalk",
+      "title": "These Ghost Towns Once Thronged With Life | National Geographic",
+      "supports": "Tier B: mainstream perennial coverage of the ghost-town/lost-city topic \u2014 audience interest is durable, though this is not YouTube demand data"
+     },
+     {
+      "url": "https://www.rd.com/list/real-ghost-towns-around-world/",
+      "title": "35 Creepy Abandoned Cities & Ghost Towns That Will Give You the Chills",
+      "supports": "Tier B: mass-market listicle inventory doubles as a subject map \u2014 35 enumerated sites supports the 300+-title depth claim"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Ghost_town",
+      "title": "Ghost town - Wikipedia",
+      "supports": "Tier B: Wikipedia's categorized global ghost-town indexes are the enumerable content map required by scoring dimension 6"
+     }
+    ]
+   },
+   {
+    "name": "Ranked: All of Them (working: 'The Complete Atlas')",
+    "oneLiner": "Completionist geography mega-guides that rank an entire closed set \u2014 all 63 US national parks, every Caribbean island, all 20 regions of Italy \u2014 using a transparent on-screen scoring system built from public data, so it's the last video a planner needs.",
+    "genres": [
+     "travel"
+    ],
+    "format": "Exhaustive ranked mega-video, 40-70 min (one segment per item), narrated over public-domain photography and maps, 1/week (heavier builds)",
+    "titleTemplate": "\"All/Every [N] [complete named set] Ranked, [criterion] ([year])\" \u2014 e.g. \"All 63 US National Parks Ranked Worst to Best (2026)\". Sets are endless closed lists: national parks, US states, EU/European countries, Caribbean/Greek/Hawaiian islands, Italian regions, UNESCO sites by region, scenic byways, national monuments \u2014 30+ sets x re-rankable criteria (cost, crowds, road trips, first-timers) = 100+ titles, refreshable annually.",
+    "hookEngine": "B-exhaustive-promise",
+    "sampleTitles": [
+     "All 63 US National Parks Ranked Worst to Best (2026)",
+     "Every Caribbean Island Ranked \u2014 All 28, Worst to Best",
+     "All 50 US States Ranked for Road Trips (2026)",
+     "Every Greek Island With an Airport, Ranked \u2014 All 34",
+     "All 47 Countries in Europe Ranked for First-Time Travelers",
+     "Every Hawaiian Island Ranked \u2014 Including the One You Can't Visit",
+     "All 20 Regions of Italy Ranked by Food, Cost, and Crowds",
+     "Every Country in Central America Ranked for Safety and Cost \u2014 All 7",
+     "All 429 US National Park Sites Explained in One Video",
+     "Every US National Park by Crowds: All 63 Ranked Quietest to Busiest"
+    ],
+    "ownableReframe": "Ports the completionist-guide moat from game guides to real-world geography: a closed set, ranked on five public metrics scored live on screen \u2014 methodology-as-content turns commodity destination info into an authored, argue-with-able verdict.",
+    "productionModel": "Solo, ~18-24 hrs/video but formulaic per segment: NPS photo/video library is public domain (decisive asset win for park sets); USGS/NOAA imagery public domain; Wikimedia Commons CC and Pexels/Mixkit free-license drone b-roll for international sets (license-check per clip); ranking data from public sources (NPS visitation statistics, cost indices from national statistics offices, flight-connectivity data); maps in QGIS/Natural Earth; scorecard graphics templated in After Effects. Policy note: highly templated segments at scale are the exact 'inauthentic content' pattern-match \u2014 the on-screen scoring methodology, per-item authored commentary, and varied structure between sets are the required author-input defense.",
+    "whyNow": "Exhaustive-ranking demand is visibly live: 'all 63 national parks ranked' returns multiple YouTube videos plus a 2026-maintained ranking site, and reaction videos to a ranking exist (a second-order demand signal) \u2014 all Tier B, titles only, view counts unverified. US-heavy subjects skew the audience tier-1, which is the biggest RPM lever per rpm-travel.md. Engine B is proven by Recommended Playing (search-matched exhaustive promise) \u2014 with its subscriber-conversion weakness (W5) treated as a known risk, not a surprise.",
+    "searchProbes": [
+     "all 63 national parks ranked",
+     "every caribbean island ranked",
+     "every european country ranked for travel"
+    ],
+    "risks": [
+     "W5 head-on: the reference for this model (Recommended Playing) converted search traffic to subs poorly (0.68x) and retired \u2014 channel growth may lag revenue; must pair with browse-friendly criteria variants ('quietest', 'overrated')",
+     "Highest per-video production weight of the four; 2/week likely impossible, so the volume-lottery variance buffer (W6) is thinner",
+     "Inauthentic-content pattern-match risk is highest here (many near-identical segments at scale) \u2014 the methodology/commentary defense must be real, not cosmetic",
+     "Established competitors own the head term (More Than Just Parks in national parks) \u2014 attainability audit downstream is decisive"
+    ],
+    "webEvidence": [
+     {
+      "url": "https://morethanjustparks.com/national-parks-ranked/",
+      "title": "All 63 US National Parks Ranked, Best to Worst (2026)",
+      "supports": "Tier B: a 2026-maintained exhaustive ranking page proves the query has enough ongoing demand to justify annual refreshes \u2014 and flags an incumbent"
+     },
+     {
+      "url": "https://www.youtube.com/watch?v=Z1dMZDNZWCw",
+      "title": "All 63 National Parks In One Video! - YouTube",
+      "supports": "Tier B: the exhaustive single-video format exists on YouTube (May 2021 per search summary); view count unverified"
+     },
+     {
+      "url": "https://m.youtube.com/watch?v=jp3q_zSYch4",
+      "title": "All 63 U.S. National Parks Ranked REACTION - YouTube",
+      "supports": "Tier B: the existence of reaction videos to a parks ranking is a second-order signal that ranking content in this set generates engagement"
+     }
+    ]
+   }
+  ]
+ }
+]
