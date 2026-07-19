@@ -1,0 +1,82 @@
+# YouTube Channel Blueprint — Orchestration Prompt (v2)
+
+Build me a complete YouTube channel blueprint from scratch. Start with nothing but the vidIQ connection, the YouTube Data API, and the open internet. Find a real, demand-validated, underserved YouTube opportunity that real people are actively searching for and already watching content about right now, design a YouTube channel blueprint around it, build the positioning and the brand and the content engine, and hand me a finished channel blueprint I could take to launch this month. Then prove to me why it would work.
+
+Discover opportunities using the vidIQ connection, validate them using the YouTube Data API, and use broader web research to understand audience demand, ad-revenue value, and market context. Select a niche only when evidence from all three aligns. Use the full capabilities of the vidIQ connection wherever they materially improve the quality of your research, analysis, or recommendations. Select the channel at the niche level — optimize for a repeatable YouTube channel opportunity with proven audience demand, attainable competition, strong ad RPM, and topic depth to sustain long-term growth. Then, for the launch videos only, drop to the keyword level and prove each one individually (see Guardrail 10).
+
+This is a test of how far you can go on your own. I am not going to answer questions mid-run. Make every call yourself, write down why you made it, and keep moving. Within the guardrails below, you have total creative freedom. Do whatever you want. Surprise me. I want to see your best work, not your safest work.
+
+## Guardrails
+
+1. The YouTube channel must be faceless, camera-free, and asset-based. Meaning I do not need to appear on camera or film anything myself. It must be proven that the channel can still rank, get views, earn subscribers, and monetize without an on-camera host, physical filming setup, or custom-shot footage. AI generated clips are okay.
+
+2. Publish nothing. Everything stays local or inside  https://github.com/backpackerjohn/Tubeyou.git Do not deploy anything to the public internet, post anywhere, email anyone, message anyone, contact any real person, or take any external action outside research and local artifact creation.
+
+3. Invent nothing. Every quote, statistic, audience claim, complaint, competitor fact, trend claim, monetization claim, RPM figure, and market claim in the deliverables must trace back to a real URL you actually fetched. Maintain a source log with the URL, title, date accessed, what evidence it supports, and how reliable it appears to be. If you infer something from evidence, clearly label it as inference. If something cannot be verified, say so. A smaller thesis built on real evidence is better than a grand thesis built on plausible fiction.
+
+4. Work only inside https://github.com/backpackerjohn/Tube-3.git. All artifacts, notes, logs, research files, drafts, scripts, source logs, and final deliverables must go there. Do not create, modify, or delete files outside that folder.
+
+5. Never ask me anything. Assume I am not watching. For every question you would normally ask me, answer it yourself using research, reasoning, and the stated goal, then log the question, your assumed answer, and why that answer was chosen in the build log. Do not stop because of ambiguity. If a tool, source, or approach fails, use another route. If a phase cannot be completed perfectly, ship the strongest evidence-backed 80% version, document what was cut or uncertain, and keep moving toward the definition of done.
+
+6. Avoid reused-content traps. The channel blueprint must be designed to be meaningfully original, monetizable, and defensible under YouTube's monetization expectations. Do not rely on copied clips, compilation-style content, low-effort AI narration over stock footage, or content that only summarizes other people's work. If the format uses stock footage, public-domain media, screen recordings, AI visuals, or licensed assets, explain how the final videos will add original value through scripting, structure, analysis, editing, narration, research, or commentary.
+
+7. Evaluate at least 10 candidate channel ideas against search demand, competition, subscriber growth, ad RPM potential, speed to YouTube Partner Program eligibility (1,000 subscribers + 4,000 watch hours), production simplicity at the required cadence, and long-term sustainability using the vidIQ connection, the YouTube Data API, and broader web research before selecting the strongest blueprint.
+
+8. Use YouTube api key. key=AIzaSyAx7M1zAZPdPKKbaAuACQ9ddfsSlHeqUlk
+
+9. The channel must be in one of these genres: history, gaming, AI, or travel — including any sub-niche, angle, or intersection within or between them (e.g., AI tools for travelers, gaming history, historical geography). All 10+ candidates must come from these genres. If the evidence proves that no candidate in these genres can meet the revenue target in Guardrail 11, document exactly why with data before evaluating anything adjacent, and log the decision.
+
+10. Keyword-level proof for launch videos. Each of the first 10 videos must target a specific, validated keyword or topic with documented high search volume and low competition where a brand-new channel can realistically rank. For every launch video, log the vidIQ keyword score, search volume, competition score, and the YouTube Data API evidence (top-ranking videos, their channel sizes, ages, and view counts) showing that small or new channels already rank for it. If large channels dominate every result for a keyword, that keyword fails — find another.
+
+11. Monetization means YouTube ad revenue. The primary and required monetization path is the YouTube Partner Program (AdSense). The channel must show a credible, evidence-backed path to $2,000/month in YouTube ad revenue within 6 months of launch, publishing 1–2 long-form videos per week. This requires: (a) documented RPM evidence for the chosen niche from real sources; (b) the explicit math — monthly views required at that RPM to hit $2,000; (c) at least 3 "proof channels": faceless channels in or near the niche, launched recently, whose public stats via the YouTube Data API show a comparable trajectory of subscriber growth and view volume is attainable at this cadence. Sponsorships and affiliates may appear only as secondary upside, never as the plan.
+
+12. The content engine and production system must be sustainable at 1–2 videos per week by one person using the faceless production stack you specify. If a format cannot be produced at that cadence, it fails regardless of demand.
+
+## Taste references (guidance, not templates)
+
+The channels below are reference points for the kind of content angles I find interesting — nothing more. Some have weak production, obviously AI voiceovers, or questionable fact-checking; that is fine, because you are judging them on content angle and audience appeal, not polish. Treat them as a taste signal, not a blueprint.
+
+- https://youtube.com/@ancientindy
+- https://youtube.com/@oversimplified
+- https://youtube.com/@pitchmeetings
+- https://youtube.com/@bozuse
+- https://youtube.com/@recommendedplaying
+- https://youtube.com/@atlasadamhq
+
+How to use them:
+
+- Before generating candidates, profile each channel using the YouTube Data API and the vidIQ connection: its niche, format, hook, upload cadence, subscriber and view trajectory, and what makes its angle work. Log these profiles in the repo.
+- Use the common threads across those profiles as a weighting signal when generating and scoring candidate ideas — candidates that share the qualities that make these channels interesting get a taste bonus, documented in the scoring.
+- Do not copy any of these channels' formats, topics, or identities wholesale. Guardrail 6 applies to them like everything else.
+- If an open, underserved niche resonates with this taste profile AND the data independently validates it, weight it favorably. If the data points elsewhere within the required genres, follow the data.
+- Taste never overrides evidence. Guardrails, the source rules, and the revenue target in Guardrail 11 always outrank taste.
+
+## What "orchestrate" means here
+
+Use multi-agent workflows aggressively. Fan out parallel researchers across different sources and angles. Run tournaments where independent agents pitch competing channel ideas and judge panels score them. Adversarially verify every important claim with skeptic agents whose only job is to refute it. Use a completeness critic before you call any phase done. Design whatever orchestration shapes the work calls for; the patterns above are a floor, not a ceiling. Multi-agent workflows can use different Claude models if they can do the job effectively and efficiently.
+
+## The arc
+
+1. Profile the taste-reference channels, then hunt for underserved YouTube opportunities within history, gaming, AI, and travel.
+2. Build and score the candidate field (10+ ideas, scored per Guardrail 7).
+3. Validate real search and viewing behavior, RPM evidence, and proof channels for the top candidates.
+4. Pick the strongest channel opportunity.
+5. Do keyword research for the first videos. Validate each keyword per Guardrail 10. Decide on the top 10 videos for our channel we should make first.
+6. Design the positioning and audience promise.
+7. Build the brand.
+8. Build the content engine, sized to 1–2 videos per week.
+9. Write the first 10 videos.
+10. Design the production and monetization systems, including the month-by-month revenue model to $2,000/month.
+11. Try to kill the thesis. The red team must specifically attack the 6-month, $2,000/month ad-revenue timeline with data — if the honest answer is a longer timeline or a lower number, say so and show the realistic projection.
+12. Refine the winner.
+13. Package the complete channel blueprint.
+
+## The deliverables list is a floor, not a ceiling
+
+Everything above is the minimum. I want to see how far you can push this. If a serious creator launching this YouTube channel would create something, and you can create it with the tools you have, create it. One required deliverable is the revenue model: a month-by-month projection from launch to month 6 showing views, watch hours, subscriber growth, YPP eligibility date, RPM assumptions with sources, and projected ad revenue — every number traceable to evidence or clearly labeled as a modeled assumption. Other ideas to steal or improve: additional launch-ready scripts, thumbnail concepts, title variations, channel art concepts, channel trailer scripts, About page copy, playlists, publishing schedule, keyword maps, competitor teardowns, production SOPs, editing templates, voice and style guides, reusable prompt libraries, or anything else that makes this channel more likely to succeed.
+
+Do not create extras for their own sake. Create the artifacts that most increase this channel's chances of attracting viewers, earning subscribers, and reaching YPP monetization quickly. Invent at least one deliverable that a top YouTube strategist would include but most people would overlook. Every extra goes in the recap page's deliverables map like everything else. Quality still beats quantity: one polished, evidence-backed artifact beats three rushed ones.
+
+## Definition of done
+
+You're done when a stranger could open recap.html, understand the YouTube opportunity in five minutes, review the evidence, and have everything needed to launch the channel this month. Before you finish, grade yourself against this list and fix anything failing: every guardrail held; every factual claim, statistic, competitor insight, audience claim, RPM figure, and market claim traces to a verified source; the chosen opportunity is supported by evidence from the vidIQ connection, the YouTube Data API, and broader web research; at least 10 candidate channel ideas from the required genres were evaluated before selecting the winner; the taste-reference channels were profiled and their influence on candidate generation and scoring is documented; the channel demonstrates real audience demand, attainable competition, repeatable content opportunities, and an evidence-backed path to $2,000/month in YouTube ad revenue within 6 months at 1–2 videos per week; every launch video's target keyword passed the Guardrail 10 validation; at least 3 proof channels are documented with API data; the brand guidelines are complete enough for a stranger to create new on-brand assets; the first 10 launch-ready videos are complete; the recap page links to every deliverable and every link works; the red team ran, specifically attacked the revenue timeline, and its objections are visible in the final documentation; and nothing in the package is a placeholder pretending to be finished work.
