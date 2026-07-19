@@ -64,6 +64,23 @@ WebSearch-result URLs captured by the 4 pitch agents, embedded per-candidate in
 `candidates/raw-pitches.json` and `candidates/candidate-field.md` (webEvidence fields), labeled
 Tier B throughout. Supports: "why now" demand rationales only; never load-bearing for scoring.
 
+### S-040 group — Phase 3 proof-channel trajectories (Tier A)
+YouTube Data API v3, 2026-07-19: 9 playlistItems calls + 3 batched videos calls (durations +
+views for the 15 newest uploads of 9 candidate proof channels). Full numbers in
+`research/niches/finalist-validation.md`. Supports: C01/C05/C11/C14 validation and elimination
+reasoning; Shorts reclassification of Madmam and SetupsAI. Reliability: primary API data.
+
+### S-050 group — Phase 5 launch-keyword audits (Tier A)
+YouTube Data API v3, 2026-07-19: 20 search probes + 6 batched channels calls + 6 batched videos
+calls. Full per-keyword tables in `keywords/launch-keyword-validation.md`. Supports: every
+pass/fail verdict in the Guardrail 10 slate. Reliability: primary API data.
+
+### S-051 group — C14 skeptic source checks (Tier B)
+WebSearch results verifying legal bases for 5 sampled places (North Sentinel 1956 Regulation,
+Snake Island ICMBio, Surtsey UNESCO, Varosha UNSC 550/789, Okinoshima UNESCO) — URLs listed in
+`candidates/skeptic-reports.md` C14 policy section. Reliability: reputable secondary (Britannica,
+UNESCO, UNSCR, UN News, CNN) — snippet-level, pages unfetched.
+
 ### S-024 group — YPP eligibility & content policy (Tier B, multi-source corroborated → medium confidence)
 Table in `research/niches/ypp-policy.md`. Supports: YPP thresholds (1,000 subs + 4,000 watch-hours),
 July 2025 "inauthentic content" policy rename, AI-content monetization rules, disclosure requirements.
