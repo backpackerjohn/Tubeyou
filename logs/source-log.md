@@ -18,6 +18,40 @@ since these are authenticated API calls, and stored as raw JSON under `research/
 
 ---
 
+## Evidence-tier definitions (environment constraint, logged 2026-07-19)
+
+This execution environment's egress proxy **blocks fetching general web pages** (HTTP 403 for all
+non-dev hosts; verified against support.google.com, web.archive.org, suggestqueries.google.com).
+Reachable: googleapis.com (YouTube Data API) and github.com. Therefore:
+
+- **Tier A — API-verified:** data returned by the YouTube Data API v3. Strongest evidence; treated as fetched primary data.
+- **Tier B — search-verified:** claims supported by real WebSearch results (URL + title + indexed snippet recorded) where the underlying page could NOT be fetched due to the proxy. These are real URLs from real searches, but page content is unverified. Every Tier B claim is labeled as such in deliverables.
+- **Tier C — inference:** clearly labeled analytical inference from Tier A/B evidence.
+
+Guardrail 3 compliance note: full fetch-verification of web sources is impossible in this
+environment; this is documented rather than hidden, per Guardrail 5's 80%-with-documentation rule.
+
 ## Entries
 
-(populated as research proceeds)
+### S-001 … S-018 — Taste-reference channel profiles (Tier A)
+YouTube Data API v3 calls on 2026-07-19, three per channel (channels?forHandle, playlistItems, videos)
+for @ancientindy, @oversimplified, @pitchmeetings, @bozuse, @recommendedplaying, @atlasadamhq.
+Exact URLs (key redacted) are listed in the "Sources" section of each file in `research/taste-profiles/`.
+Supports: all stats/claims in taste profiles and taste-signals.md. Reliability: primary API data.
+
+### S-020 group — RPM evidence, history (Tier B)
+Source table with URLs, titles, figures, and reliability grades in `research/niches/rpm-history.md`.
+Supports: history RPM range $4–9 (snippet consensus; unverified pages).
+
+### S-021 group — RPM evidence, gaming (Tier B)
+Table in `research/niches/rpm-gaming.md`. Supports: gaming RPM $2–6; sub-angle nuances.
+
+### S-022 group — RPM evidence, AI (Tier B)
+Table in `research/niches/rpm-ai.md`. Supports: AI/tech RPM $8–20.
+
+### S-023 group — RPM evidence, travel (Tier B)
+Table in `research/niches/rpm-travel.md`. Supports: travel RPM $3–8.
+
+### S-024 group — YPP eligibility & content policy (Tier B, multi-source corroborated → medium confidence)
+Table in `research/niches/ypp-policy.md`. Supports: YPP thresholds (1,000 subs + 4,000 watch-hours),
+July 2025 "inauthentic content" policy rename, AI-content monetization rules, disclosure requirements.
