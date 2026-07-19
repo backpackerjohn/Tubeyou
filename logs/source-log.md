@@ -52,6 +52,18 @@ Table in `research/niches/rpm-ai.md`. Supports: AI/tech RPM $8–20.
 ### S-023 group — RPM evidence, travel (Tier B)
 Table in `research/niches/rpm-travel.md`. Supports: travel RPM $3–8.
 
+### S-030 group — Tier A competition audit (Tier A)
+YouTube Data API v3, 2026-07-19: 16 `search` calls (one probe per candidate, maxResults=8,
+type=video), 3 batched `channels` calls (~110 channel IDs; snippet+statistics), 3 batched `videos`
+calls (128 video IDs; statistics). Exact queries and all returned numbers are reproduced in
+`candidates/tier-a-audit.md`. Supports: every demand/competition claim in the audit and downstream
+scoring. Reliability: primary API data.
+
+### S-031 group — Candidate generation web evidence (Tier B)
+WebSearch-result URLs captured by the 4 pitch agents, embedded per-candidate in
+`candidates/raw-pitches.json` and `candidates/candidate-field.md` (webEvidence fields), labeled
+Tier B throughout. Supports: "why now" demand rationales only; never load-bearing for scoring.
+
 ### S-024 group — YPP eligibility & content policy (Tier B, multi-source corroborated → medium confidence)
 Table in `research/niches/ypp-policy.md`. Supports: YPP thresholds (1,000 subs + 4,000 watch-hours),
 July 2025 "inauthentic content" policy rename, AI-content monetization rules, disclosure requirements.
