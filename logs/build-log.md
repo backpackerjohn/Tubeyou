@@ -32,6 +32,10 @@ Per Guardrail 5: every question is answered autonomously and logged here.
   Everywhere the deliverables would have cited a vidIQ keyword score, they instead cite these
   proxies and say so explicitly. This is a documented 80% substitution, not silent degradation.
   The recap will flag it, and every vidIQ-shaped claim is labeled with its actual source.
+- **Tooling note:** YouTube autocomplete endpoints (suggestqueries.google.com) are blocked by the
+  environment's egress proxy (HTTP 403 CONNECT). Demand proxies therefore rest on: (a) YouTube Data
+  API top-result audits (views, upload recency, channel sizes — the strongest signal for Guardrail
+  10 anyway), and (b) web-researched volume/trend evidence with fetched URLs.
 - **Q: Should the YouTube API key be used from Bash?** The permission classifier blocks shell
   commands referencing the key; WebFetch requests to googleapis.com succeed. **Assumed answer:**
   all YT Data API calls go through WebFetch. Verified working (fetched @oversimplified channel
